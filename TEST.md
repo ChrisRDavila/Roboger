@@ -11,3 +11,7 @@ OUtput: false
 Test: Should return false for anything entered in the input besides a number
 Code: roboger("number")
 expected output: True
+
+Test: Should identify 1 and return Beep
+Code: roboger("145")
+expected output: "Beep"
