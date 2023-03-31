@@ -5,22 +5,16 @@ function roboger(number) {
   outputArray = [];
   splitArray.forEach(element => {
     if (element === "1") {
-    outputArray.push("Beep ");
+    outputArray.push("Beep");
     } else if (element === "2") {
-    outputArray.push(" Boop "); 
+    outputArray.push("Boop"); 
   } else if (element === "3") {
-    outputArray.push(" won't you be my neighbor?");
+    outputArray.push("Won't you be my neighbor?");
+  } else {
+    outputArray.push(element);
   }
   });  
 return outputArray; 
 }
   
-
-
-
-
-//if (!Number(number)) {
-//  return false;
-
-//else {
-//  return outputArray;
+//User Interface Logic

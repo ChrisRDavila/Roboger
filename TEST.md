@@ -24,3 +24,10 @@ expected outPut: " Boop "
 Code: roboger("345")
 Expected Output: "won't you be my neighbor"
 
+# Test: Should return input character unaldulterated if 1 2 or 3 are not present in input
+Code: roboger("456")
+Expected Output: "456"
+
+# Test: should return of elements input seperated out with substitions for 1 2 and 3 as well as original input for non specified characters
+Code: roboger("1235") 
+Expected Outout: ["Beep", "Boop", "wont you be my neighbor", "5"];
