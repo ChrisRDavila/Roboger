@@ -20,6 +20,7 @@ return outputArray;
 //User Interface Logic
 function handleForm(event) {
   event.preventDefault();
+  roboger = document.querySelectorAll("input(inputForm:submit");
   const resultsHeading = document.createElement("h2");
   resultsHeading.append("List based on submission");
   document.body.append(resultsHeading);
@@ -33,5 +34,5 @@ function handleForm(event) {
 }
 
 window.addEventListener("load", function() {
-this.document.querySelector("form#inputForm").addEventListener("submit", handleForm);
+this.document.querySelectorAll("form#inputForm").addEventListener("submit", handleForm);
 })
