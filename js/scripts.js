@@ -20,19 +20,23 @@ return outputArray;
 //User Interface Logic
 function handleForm(event) {
   event.preventDefault();
-  roboger = document.querySelectorAll("input(inputForm:submit");
+  const numberElement = document.querySelector("#userInput");
+  const listStrings = roboger(numberElement.value);
   const resultsHeading = document.createElement("h2");
   resultsHeading.append("List based on submission");
   document.body.append(resultsHeading);
   const resultList = document.createElement("ul");
   document.body.append(resultList);
-  outputArray.forEach(function(element) {
+  listStrings.forEach(function(string) {
     const returnList = document.createElement("li");
-    returnList.append(element);
+    returnList.innerHTML = string;
     resultList.append(returnList);
   });
 }
 
 window.addEventListener("load", function() {
-this.document.querySelectorAll("form#inputForm").addEventListener("submit", handleForm);
-})
+body = document.querySelector("body");
+form = document.querySelector("inputForm");
+form.addEventListener("submit", handleForm);
+});
+//document.querySelectorAll("form#inputForm").addEventListener("submit", handleForm);
