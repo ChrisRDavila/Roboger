@@ -18,3 +18,13 @@ return outputArray;
 }
   
 //User Interface Logic
+function recieveInput(number) {
+  number.preventDefault();
+  const userInput = document.querySelector("input[name=userInput]:submit");
+  const resultsHeading = document.createElement("h2");
+  reultsHeading.append("This list contains the results of branching your submissions");
+  document.body.append(resultsHeading);
+  outputArray.forEach(function(element) {
+    
+  })
+}
