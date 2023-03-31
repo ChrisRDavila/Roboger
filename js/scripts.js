@@ -18,9 +18,9 @@ return outputArray;
 }
   
 //User Interface Logic
-function handleForm(event) {
+function handleSubmit(event) {
   event.preventDefault();
-  const numberElement = document.querySelector("#userInput");
+  const numberElement = document.querySelector("#userForm");//or "#userInput"
   const listStrings = roboger(numberElement.value);
   const resultsHeading = document.createElement("h2");
   resultsHeading.append("List based on submission");
@@ -34,9 +34,12 @@ function handleForm(event) {
   });
 }
 
+let = form;
+let = body;
+
 window.addEventListener("load", function() {
 body = document.querySelector("body");
-form = document.querySelector("inputForm");
-form.addEventListener("submit", handleForm);
+form = document.querySelector("#inputForm");
+form.addEventListener("submit", handleSubmit);
 });
 //document.querySelectorAll("form#inputForm").addEventListener("submit", handleForm);
