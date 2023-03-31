@@ -18,13 +18,20 @@ return outputArray;
 }
   
 //User Interface Logic
-function recieveInput(number) {
-  number.preventDefault();
-  const userInput = document.querySelector("input[name=userInput]:submit");
+function handleForm(event) {
+  event.preventDefault();
   const resultsHeading = document.createElement("h2");
-  reultsHeading.append("This list contains the results of branching your submissions");
+  resultsHeading.append("List based on submission");
   document.body.append(resultsHeading);
+  const resultList = document.createElement("ul");
+  document.body.append(resultList);
   outputArray.forEach(function(element) {
-    
-  })
+    const returnList = document.createElement("li");
+    returnList.append(element);
+    resultList.append(returnList);
+  });
 }
+
+window.addEventListener("load", function() {
+this.document.querySelector("form#inputForm").addEventListener("submit", handleForm);
+})
