@@ -1,9 +1,9 @@
 //Business Logic
 
 function roboger(number) {
-  if (number != undefined) {
-    return true
-  } else {
+    if (!Number(number)) {
     return false;
-  }
+  } else {
+    return true;
+  };
 };
