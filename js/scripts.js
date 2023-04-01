@@ -23,10 +23,10 @@ function handleSubmit(event) {
   const numberElement = document.querySelector("#userInput");//or "#inputForm"
   const listStrings = roboger(numberElement.value);//.value?
   //const resultsHeading = document.createElement("h2");
-  //resultsHeading.append("List based on submission");
+  //resultsHeading.append("Here's your robogized list!");
   //document.body.append(resultsHeading);
-  const resultList = document.createElement("ul");
-  document.body.append(resultList);
+  //const resultList = document.createElement("ul");
+  //document.body.append(resultList);
   listStrings.forEach(function(string) {
     const li = document.createElement("li");
     li.innerHTML = string;
@@ -34,12 +34,9 @@ function handleSubmit(event) {
   });
 }
 
-//let = form;
-//let = body;
-
 window.addEventListener("load", function() {
 body = document.querySelector("body");
 form = document.querySelector("#inputForm");
 form.addEventListener("submit", handleSubmit);
 });
-//document.querySelectorAll("form#inputForm").addEventListener("submit", handleForm);
+
