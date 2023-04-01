@@ -1,0 +1,30 @@
+img {
+  float: right;
+  border-radius: 50px;
+}
+body {
+  background-color:lightgoldenrodyellow
+}
+h1 {
+  color:mediumaquamarine;
+  text-align: center;
+  font-size: 40px;
+}form {
+  border: 10px;
+  margin: 20px;
+  padding: 20px;
+}
+p {
+  font-size: 17px;
+  color:darkblue
+}
+form {
+  color: darkslategray;
+  font-size: 20px;
+}
+button {
+  background-color: chartreuse;
+  border-radius: 20px;
+  color:deeppink;
+  font-size: 25px;
+}
