@@ -34,6 +34,6 @@ This webpage is designed to gather take information input by the user and respon
 
 ## License
 
-[MIT]()
+[MIT](https://github.com/ChrisRDavila/Roboger/blob/main/LICENSE.txt)
 
 Copyright (c) 2023 Christopher Davila
