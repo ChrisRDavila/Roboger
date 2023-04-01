@@ -20,8 +20,8 @@ return outputArray;
 //User Interface Logic
 function handleSubmit(event) {
   event.preventDefault();
-  const numberElement = document.querySelector("#userForm");//or "#userInput"
-  const listStrings = roboger(numberElement.value);
+  const numberElement = document.querySelector("#userInput");//or "#inputForm"
+  const listStrings = roboger(numberElement.value);//.value?
   const resultsHeading = document.createElement("h2");
   resultsHeading.append("List based on submission");
   document.body.append(resultsHeading);
