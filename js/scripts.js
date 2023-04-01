@@ -22,15 +22,15 @@ function handleSubmit(event) {
   event.preventDefault();
   const numberElement = document.querySelector("#userInput");//or "#inputForm"
   const listStrings = roboger(numberElement.value);//.value?
-  const resultsHeading = document.createElement("h2");
-  resultsHeading.append("List based on submission");
-  document.body.append(resultsHeading);
+  //const resultsHeading = document.createElement("h2");
+  //resultsHeading.append("List based on submission");
+  //document.body.append(resultsHeading);
   const resultList = document.createElement("ul");
   document.body.append(resultList);
   listStrings.forEach(function(string) {
-    const returnList = document.createElement("li");
-    returnList.innerHTML = string;
-    resultList.append(returnList);
+    const li = document.createElement("li");
+    li.innerHTML = string;
+    body.appendChild(li);
   });
 }
 
