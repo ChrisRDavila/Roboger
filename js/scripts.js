@@ -34,8 +34,8 @@ function handleSubmit(event) {
   });
 }
 
-let = form;
-let = body;
+//let = form;
+//let = body;
 
 window.addEventListener("load", function() {
 body = document.querySelector("body");
