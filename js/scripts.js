@@ -19,7 +19,12 @@
 
 function roboger2(string) {
 const numberArray = parseInt(string);
-return numberArray
+outputArray = [];
+countUp = [];
+for (let i=numberArray; i>=0; i--) {
+  outputArray.push(i);
+} countUp = outputArray.reverse();
+  return countUp
 }
 
 
