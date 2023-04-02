@@ -1,4 +1,4 @@
-##### Describe: Roboger()
+## Describe: Roboger()
 
 # Test: "Should validate that some element is entered into input"
 Code: Roboger(" ")
@@ -31,3 +31,10 @@ Expected Output: "456"
 # Test: should return of elements input seperated out with substitions for 1 2 and 3 as well as original input for non specified characters
 Code: roboger("1235") 
 Expected Outout: ["Beep", "Boop", "wont you be my neighbor", "5"];
+
+## Describe roboger2();
+
+# Test: Should return number from string entered
+Code: roboger("12")
+Expected Output: (12)
+

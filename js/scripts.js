@@ -16,9 +16,12 @@
 //  });  
 //return outputArray; 
 //}
-function roboger2(string) {
 
+function roboger2(string) {
+const numberArray = parseInt(string);
+return numberArray
 }
+
 
   
 //User Interface Logic
