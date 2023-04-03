@@ -18,11 +18,11 @@
 //}
 
 function roboger2(input) {
-const stringToAdd = [];
+const resultString = [];
 for (let i=0; i <= parseInt(input); i++) {
-  const stringToAdd = replaceInt("$(i)");
-  stringToAdd.push(stringToAdd);
-  } return stringToAdd
+  const stringToAdd = replaceInt(`${i}`);
+  resultString.push(stringToAdd);
+  } return resultString
 }
 function replaceInt(string) {
   if (string.includes("3")) {
@@ -32,7 +32,7 @@ function replaceInt(string) {
   } else if (string.includes("1")) {
     return "Beep"
   } else {
-    return "${string}";
+    return `${string}`;
   }
 }
 
