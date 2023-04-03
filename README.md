@@ -1,8 +1,8 @@
-# Mr. Rogers Neighborhood
+# Mr. Robogers Neighborhood
 
 ####  By Christopher Davila
 
-#### An exploration of Array and Looping
+#### An exploration of Arrays and Looping
 
 ### Technologies Used
 
@@ -28,8 +28,11 @@ This webpage is designed to gather take information input by the user and respon
 
 ## Known Bugs
 
-* onyl seperate out indivual elements, so replacing number > 9 will replace the 1 2 and 3 but still seperate out the other numbers
-* can continue to enter new numbers for new results but must be refreshed to get rid of prior results
+* no response to characters that are not numbers
+* if multiple seperate number entered only responds to first number
+* if standard american or european seperators for thousand or million and on used (, or .) only identifies number(s) before the seperator (ie 1,002 would be 1)
+* cannot identify any partial numbers or fractions, only responds to integers preceding seperation (ie 1.5 = 1 and 1/5 = 1)
+
 
 ## License
 
