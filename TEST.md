@@ -67,3 +67,7 @@ Expected Output: "Beep"
 # Test: the inclusion of a 3 should take precedence over the inclusion of a 2 and/or 1
 Code: "replaceInt("321")
 Expected Output: "Wont you be my neighbor"
+
+# Test: the inclusion of a 2 should take precedence over the inclusion of 1
+Code: "replaceInt("21")
+Expected Output: "Boop"
