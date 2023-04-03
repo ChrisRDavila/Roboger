@@ -30,7 +30,7 @@ function replaceInt(string) {
   } else if (string.includes("2")) {
     return "Boop!"
   } else if (string.includes("1")) {
-    return "Beep"
+    return "Beep!"
   } else {
     return `${string}`;
   }
@@ -56,6 +56,8 @@ function replaceInt(string) {
 //User Interface Logic
 function handleSubmit(event) {
   event.preventDefault();
+  const list = document.querySelector("#list");
+  list.innerHTML = "";
   const numberElement = document.querySelector("#userInput");//or "#inputForm"
   const listStrings = roboger2(numberElement.value);//.value?
   //const resultsHeading = document.createElement("h2");
@@ -66,7 +68,7 @@ function handleSubmit(event) {
   listStrings.forEach(function(string) {
     const li = document.createElement("li");
     li.innerHTML = string;
-    body.appendChild(li);
+    list.appendChild(li);
   });
 }
 

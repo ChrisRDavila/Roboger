@@ -28,3 +28,8 @@ button {
   color:deeppink;
   font-size: 25px;
 }
+#list {
+  color: crimson;
+  font-size: 17px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
