@@ -50,4 +50,8 @@ Expected Output: (0,1,2,3,4,5,6,7,8,9,10,11,12)
 
 # Test: Should take an array and replace all strings including a 3 with a wont you be my neighbor
 Code: replaceInt("3")
-Exepected Output: ["wont you be my neighbor, 2, 1, 0]
+Exepected Output: ["wont you be my neighbor"]
+
+# Test: should replace number other then 3 that also has a 3 with intended message"
+Code: "replaceInt("13");
+Expected Output: "Won't you be my neighbor"
