@@ -55,3 +55,8 @@ Exepected Output: ["wont you be my neighbor"]
 # Test: should replace number other then 3 that also has a 3 with intended message"
 Code: "replaceInt("13");
 Expected Output: "Won't you be my neighbor"
+
+# Test: should replace strings with number 2 in them with second message "Boop"
+Code: replaceInt("2");
+Expected Output: "Boop"
+

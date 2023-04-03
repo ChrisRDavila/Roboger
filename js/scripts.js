@@ -27,7 +27,10 @@ for (let i=0; i <= parseInt(input); i++) {
 function replaceInt(string) {
   if (string.includes("3")) {
     return "Won't you be my neighber?";
-  } else {
+  } else if (string.includes("2")) {
+    return "Boop!"
+  }
+  else {
     return "${string}";
   }
 }
