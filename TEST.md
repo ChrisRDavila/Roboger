@@ -60,3 +60,10 @@ Expected Output: "Won't you be my neighbor"
 Code: replaceInt("2");
 Expected Output: "Boop"
 
+# Test: should replace numbers that include 1 with "Boop!"
+Code: replaceInt("1");
+Expected Output: "Beep"
+
+# Test: the inclusion of a 3 should take precedence over the inclusion of a 2 and/or 1
+Code: "replaceInt("321")
+Expected Output: "Wont you be my neighbor"

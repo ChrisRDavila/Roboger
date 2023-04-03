@@ -29,8 +29,9 @@ function replaceInt(string) {
     return "Won't you be my neighber?";
   } else if (string.includes("2")) {
     return "Boop!"
-  }
-  else {
+  } else if (string.includes("1")) {
+    return "Beep"
+  } else {
     return "${string}";
   }
 }
