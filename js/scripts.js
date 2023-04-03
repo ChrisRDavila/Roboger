@@ -17,15 +17,35 @@
 //return outputArray; 
 //}
 
-function roboger2(string) {
-const numberArray = parseInt(string);
-outputArray = [];
-countUp = [];
-for (let i=numberArray; i>=0; i--) {
-  outputArray.push(i);
-} countUp = outputArray.reverse();
-  return countUp
+function roboger2(input) {
+const stringToAdd = [];
+for (let i=0; i <= parseInt(input); i++) {
+  const stringToAdd = replaceInt("$(i)");
+  stringToAdd.push(stringToAdd);
+  } return stringToAdd
 }
+function replaceInt(string) {
+  if (string.includes("3")) {
+    return "Won't you be my neighber?";
+  } else {
+    return "${string}";
+  }
+}
+
+
+
+//function replaceInt(array) {
+//  roboger2.value = array
+//  finalArray = [];
+//  roboger2.forEach(number => {
+//    if (roboger2.includes(1)) {
+//      finalArray.push("Beep");
+//    } else {
+//      finalArray.push(number);
+//    }
+//    return finalArray;
+//  })
+//}
 
 
   
@@ -33,7 +53,7 @@ for (let i=numberArray; i>=0; i--) {
 function handleSubmit(event) {
   event.preventDefault();
   const numberElement = document.querySelector("#userInput");//or "#inputForm"
-  const listStrings = roboger(numberElement.value);//.value?
+  const listStrings = roboger2(numberElement.value);//.value?
   //const resultsHeading = document.createElement("h2");
   //resultsHeading.append("Here's your robogized list!");
   //document.body.append(resultsHeading);
