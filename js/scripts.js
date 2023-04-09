@@ -6,7 +6,7 @@ function roboger(input) {
       const stringToAdd = replaceInt(`${i}`);
       resultString.push(stringToAdd);
   }
-  return resultString
+  return resultString;
 }
 
 function replaceInt(string) {
