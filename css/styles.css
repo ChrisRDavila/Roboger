@@ -1,35 +1,36 @@
 img {
-  float: right;
-  border-radius: 50px;
+	float: right;
+	border-radius: 50px;
 }
 body {
-  background-color:lightgoldenrodyellow
+	background-color:lightgoldenrodyellow
 }
 h1 {
-  color:mediumaquamarine;
-  text-align: center;
-  font-size: 40px;
-}form {
-  border: 10px;
-  margin: 20px;
-  padding: 20px;
-}
-p {
-  font-size: 17px;
-  color:darkblue
+	color:mediumaquamarine;
+	text-align: center;
+	font-size: 40px;
 }
 form {
-  color: darkslategray;
-  font-size: 20px;
+	border: 10px;
+	margin: 20px;
+	padding: 20px;
+}
+p {
+	font-size: 17px;
+	color:darkblue
+}
+form {
+	color: darkslategray;
+	font-size: 20px;
 }
 button {
-  background-color: chartreuse;
-  border-radius: 20px;
-  color:deeppink;
-  font-size: 25px;
+	background-color: chartreuse;
+	border-radius: 20px;
+	color:deeppink;
+	font-size: 25px;
 }
 #list {
-  color: crimson;
-  font-size: 17px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+	color: crimson;
+	font-size: 17px;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
