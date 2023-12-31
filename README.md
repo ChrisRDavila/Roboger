@@ -16,7 +16,7 @@
 
 ## Description
 
-This webpage is designed to gather take information input by the user and respond via loops and branching to specified data to retrieve a specialized message upon submission.  Users can input whatever data they want, the loops will gather the data, divide it into seperate elements of an array and return responces that switch change the input into a Mr rogers themed message if the elements correspond to a specified parameter.  The returned data will be returned parsed out into unordered lines and upon resetting the page can be actived from the same browser as many times as desired.
+This webpage is designed to gather take information input by the user and respond via loops and branching to specified data to retrieve a specialized message upon submission.  Users can input whatever data they want, the loops will gather the data, divide it into seperate elements of an array and return responces that switch change the input into a Mr rogers themed message if the elements correspond to a specified parameter.  The returned data will be returned parsed out into unordered lines and upon resetting the page can be actived from the same browser as many times as desired. Code review for OOP
 
 ## Setup/Installation Requirements
 
